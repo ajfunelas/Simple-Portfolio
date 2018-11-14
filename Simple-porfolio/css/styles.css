@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+body {
+  background-color:rgb(255, 255, 255);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #5a5959;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight:300;
+}
+div {
+  text-align: center;
+}
+.body {
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  display: block;
+}
+
+.mail {
+  text-align: center;
+}
+
+#email_form input {
+  margin: 10px;
+}
+
+#email_form textarea {
+  height: 10em;
+  width: 25em;
+}
