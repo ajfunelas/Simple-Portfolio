@@ -1,4 +1,4 @@
 # Simple-Portfolio
 
 A simple approach to portfolios
-![](/master/img.PNG)
+![](Simple-port%20repo/img.PNG)
