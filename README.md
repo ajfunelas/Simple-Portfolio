@@ -1,4 +1,4 @@
 # Simple-Portfolio
 
 A simple approach to portfolios
-i()[img.png]
+![](/blob/master/img.PNG)
