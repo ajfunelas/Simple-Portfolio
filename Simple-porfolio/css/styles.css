@@ -84,6 +84,10 @@ h1 {
   box-sizing: border-box;
   display: block;
 }
+.section {
+  padding: 2vh 19.1%;
+  text-align: center;
+}
 .mail {
   text-align: center;
 }
