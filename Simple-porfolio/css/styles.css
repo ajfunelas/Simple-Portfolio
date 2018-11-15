@@ -27,7 +27,7 @@ input {
     font-family: 'Quicksand', sans-serif;
 }
 textarea {
-	width: 100%;
+	  width: 100%;
     padding: 10px;
     margin: 5px 0 10px;
     font-size: 18px;
@@ -85,8 +85,26 @@ h1 {
   display: block;
 }
 .section {
-  padding: 2vh 19.1%;
-  text-align: center;
+  display: inline-block;
+  height:100%;
+  width:100%;
+  padding: 60px;
+  padding-left: 120px;
+  box-sizing:border-box;
+}
+/* Experience */
+.image.partial{
+    /* width: 23.61%; */
+    margin: 0 18px 9px 0;
+    float: left;
+}
+.project {
+  margin: 4vh 0;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 4px;
+  text-align: left;
 }
 .mail {
   text-align: center;
