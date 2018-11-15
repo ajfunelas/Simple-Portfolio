@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-
+* {
+  box-sizing: border-box;
+}
+div {
+  text-align: center;
+  display: block;
+}
 body {
   background-color:rgb(255, 255, 255);
   font-family: 'Quicksand', sans-serif;
@@ -8,20 +14,76 @@ body {
   color: #5a5959;
   margin: 0;
 }
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    font-size: 18px;
+    outline: 0;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #5a5959;
+    font-family: 'Quicksand', sans-serif;
+}
+textarea {
+	width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    font-size: 18px;
+    outline: 0;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #5a5959;
+    font-family: 'Quicksand', sans-serif;
+}
+button {
+	cursor: default;
+}
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #5a5959;
+}
 h1 {
   font-family: 'Quicksand', sans-serif;
   font-weight:300;
+  margin: 0.67em;
 }
-div {
+#submit_form {
+
+}
+.head {
+  height: 50vh;
+}
+.menu {
   text-align: center;
+  padding-top: 2vh;
+  box-sizing: initial;
+  top 0;
 }
+.menu1 a {
+  display: inline-block;
+  height: 20px;
+  margin: 0 15px;
+  vertical-align: middle;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.hi {
+  width: 100%;
+  text-align: center;
+  padding-top: 10vh;
+  min-height: 40.8vh
+}
+
 .body {
   background-color: #F5F5F5;
   box-sizing: border-box;
   display: block;
 }
-
 .mail {
   text-align: center;
 }
