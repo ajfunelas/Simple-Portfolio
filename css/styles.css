@@ -112,6 +112,7 @@ p {
   overflow: hidden;
   border-radius: 4px;
   text-align: left;
+  padding: 18px;
 }
 .mail {
   text-align: center;
