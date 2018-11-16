@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+* {
+  box-sizing: border-box;
+}
+div {
+  text-align: center;
+  display: block;
+}
+body {
+  background-color:rgb(255, 255, 255);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #5a5959;
+  margin: 0;
+}
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    font-size: 18px;
+    outline: 0;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #5a5959;
+    font-family: 'Quicksand', sans-serif;
+}
+textarea {
+	  width: 50%;
+    padding: 10px;
+    margin: 5px 0 10px;
+    font-size: 18px;
+    outline: 0;
+    border: 1px #bbb solid;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #5a5959;
+    font-family: 'Quicksand', sans-serif;
+}
+button {
+	cursor: default;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #5a5959;
+}
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight:300;
+  margin: 0.67em;
+}
+p {
+  /* display: block; */
+  /* margin-block-start: 1em; */
+  /* margin-block-end: 1em; */
+  /* margin-inline-start: 0px; */
+  /* margin-inline-end: 0px; */
+}
+#submit_form {
+
+}
+.head {
+  height: 50vh;
+}
+.menu {
+  text-align: center;
+  padding-top: 2vh;
+  /* box-sizing: initial; */
+  top 0;
+}
+.menu1 a {
+  display: inline-block;
+  height: 20px;
+  margin: 0 15px;
+  vertical-align: middle;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.hi {
+  width: 100%;
+  text-align: center;
+  padding-top: 10vh;
+  min-height: 40.8vh
+}
+
+.body {
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+  display: block;
+}
+/* .section {
+  display: inline-block;
+  height:100%;
+  width:100%;
+  padding: 60px;
+  padding-left: 120px;
+  box-sizing:border-box;
+} */
+/* Experience */
+.image.partial{
+    /* width: 23.61%; */
+    margin: 0 18px 9px 0;
+    float: left;
+}
+.project {
+  margin: 4vh 0;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 4px;
+  text-align: left;
+  padding: 10px;
+}
+.mail {
+  text-align: center;
+}
+
+#email_form input {
+  margin: 10px;
+}
+
+/* #email_form textarea {
+  height: 10em;
+  width: 25em;
+} */
+
+
+/* Responsive Stuff */
+@media (max-width: 576px) {
+
+/* h1 {
+  font-size: 20px;
+} */
+
+}
