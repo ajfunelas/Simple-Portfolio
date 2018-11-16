@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Abner Jr</title>
+    <!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- CSS -->
+		<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="menu container-fluid">
+  <div class="menu1 container-fluid">
+  <a id="nav-portfolio" href="#">Experience</a>
+  <a id="nav-experience" href="#">Portfolio</a>
+  <a id="nav-about" href="#">About</a>
+  <a id="nav-contact" href="#">Contact</a>
+  </div>
+  <div class="hi container-fluid">
+    <h1>Hi, I'm Abner Jr Funelas.</h1>
+    <h1>I like creating cool stuff</h1>
+  </div>
+  </div>
+<div class="body container-fluid">
+  <div class="section portfolio container-fluid">
+    <div>
+      <h1>My Experience</h1>
+    </div>
+    <div class="project" target="_blank">
+      <a href="#" class="image partial">
+      <img src="imgs/fuj_logo.png" alt="Fujitsu Australia">
+      </a>
+      <h2>Fujitsu</h2>
+      <h3>Service Desk Analyst/Incident Manager</h3>
+      <h4>July 2018 - Present</h4>
+      <p>Working under the WA health account to deliver primary Service Desk support</p>
+      <p>that includes incident detection and recording, classification of all incidents</p>
+      <p>and 1st / 2nd level investigation, diagnosis, resolution and recovery.</p>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="section contact container-fluid">
+    <div>
+      <h1>Contact me!</h1>
+    </div>
+    <div class="mail">
+      <form action="https://postmail.invotes.com/send"
+    method="post" id="email_form">
+
+    <input type="text" name="subject" placeholder="Subject" />
+    <br/>
+    <input type="text" name="extra_phone_number" placeholder="Mobile" />
+    <br/>
+    <input type="text" name="extra_email" placeholder="Unicornpony@rainbows.com" />
+    <br/>
+    <textarea name="text" placeholder="You have nice hair!"></textarea>
+    <input type="hidden" name="access_token" value="qod0nvxhz2728cc9yy0lddq6" />
+      <!-- return urls can be fully qualified -OR-
+         start with / for root relative -OR-
+         start with . for url relative -->
+    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+
+
+    <!-- set the reply-to address -->
+    <!-- <input type="text" name="reply_to"
+                placeholder="Your Email" /> -->
+
+    <!-- to append extra fields, use the extra_ prefix.
+        Entries will be appended to your message body. -->
+    <!-- <input type="text" name="extra_phone_number"
+                placeholder="Phone Number" /> -->
+
+    <!-- to split your message into 160 chars
+         for an sms gateway -->
+    <!-- <input type="hidden"
+                name="sms_format" value="true" /> -->
+    <br/>
+    <input class="btn btn-dark" id="submit_form" type="submit" value="Send" />
+    <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
+    <!-- <p>Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>
+</form> -->
+
+<!-- optional, prevents the submit button from being pressed more than once -->
+<script>
+    var submitButton = document.getElementById("submit_form");
+    var form = document.getElementById("email_form");
+    form.addEventListener("submit", function (e) {
+        setTimeout(function() {
+            submitButton.value = "Sending...";
+            submitButton.disabled = true;
+        }, 1);
+    });
+</script>
+    </div>
+  </div>
+</div>
+</body>
+</html>
