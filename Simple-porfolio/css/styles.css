@@ -52,6 +52,13 @@ h1 {
   font-weight:300;
   margin: 0.67em;
 }
+p {
+  /* display: block; */
+  /* margin-block-start: 1em; */
+  /* margin-block-end: 1em; */
+  /* margin-inline-start: 0px; */
+  /* margin-inline-end: 0px; */
+}
 #submit_form {
 
 }
@@ -61,7 +68,7 @@ h1 {
 .menu {
   text-align: center;
   padding-top: 2vh;
-  box-sizing: initial;
+  /* box-sizing: initial; */
   top 0;
 }
 .menu1 a {
@@ -84,14 +91,14 @@ h1 {
   box-sizing: border-box;
   display: block;
 }
-.section {
+/* .section {
   display: inline-block;
   height:100%;
   width:100%;
   padding: 60px;
   padding-left: 120px;
   box-sizing:border-box;
-}
+} */
 /* Experience */
 .image.partial{
     /* width: 23.61%; */
@@ -114,7 +121,17 @@ h1 {
   margin: 10px;
 }
 
-#email_form textarea {
+/* #email_form textarea {
   height: 10em;
   width: 25em;
+} */
+
+
+/* Responsive Stuff */
+@media (max-width: 576px) {
+
+/* h1 {
+  font-size: 20px;
+} */
+
 }
