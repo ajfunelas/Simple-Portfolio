@@ -8,7 +8,8 @@ div {
   display: block;
 }
 body {
-  background-color:rgb(255, 255, 255);
+  /* background-color:rgb(255, 255, 255); */
+  background: linear-gradient(135deg,#00C4FF,#9D1BB2);
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   color: #5a5959;
@@ -78,6 +79,7 @@ p {
   vertical-align: middle;
   font-size: 16px;
   text-transform: uppercase;
+  color: white;
 }
 .hi {
   width: 100%;
@@ -85,7 +87,9 @@ p {
   padding-top: 10vh;
   min-height: 40.8vh
 }
-
+.hi h1 {
+  color: white;
+}
 .body {
   background-color: #F5F5F5;
   box-sizing: border-box;
