@@ -125,13 +125,10 @@ p {
 #email_form input {
   margin: 10px;
 }
-
 /* #email_form textarea {
   height: 10em;
   width: 25em;
 } */
-
-
 /* Responsive Stuff */
 @media (max-width: 576px) {
 
