@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- CSS -->
 		<link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/hover.css">
     <!-- js -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
@@ -38,27 +39,35 @@ $(document).ready(function(){
 });
 </script>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+<script type="text/javascript" src="js/particles.js">
+</script>
+<!-- <script type="text/javascript" src="js/javascript.js">
+</script> -->
+
 </head>
 <body>
 <div class="menu container-fluid">
   <div class="menu1 container-fluid">
   <a id="nav-experience" href="#myExp">Experience</a>
-  <a id="nav-portfolio" href="#">Portfolio</a>
-  <a id="nav-about" href="#">About</a>
-  <a id="nav-contact" href="#">Contact</a>
+  <a id="nav-portfolio" href="#myPort">Portfolio</a>
+  <a id="nav-about" href="#myAbout">About</a>
+  <a id="nav-contact" href="#myCon">Contact</a>
   </div>
   <div class="hi container-fluid">
     <h1>Hi, I'm Abner Jr Funelas.</h1>
     <h1>I like creating cool stuff</h1>
   </div>
   </div>
+  <!-- Experience -->
 <div class="body container-fluid">
-  <div class="section portfolio container-fluid">
+  <div class="section experience container-fluid">
     <div>
       <h1 id="myExp">My Experience</h1>
     </div>
     <div class="exp" target="_blank">
-      <a href="#" class="image partial">
+      <a href="http://www.fujitsu.com/au/" class="image partial hvr-skew">
       <img src="imgs/fuj_logo.png" alt="Fujitsu Australia">
       </a>
       <h2>Fujitsu</h2>
@@ -69,7 +78,7 @@ $(document).ready(function(){
       <p>and 1st / 2nd level investigation, diagnosis, resolution and recovery.</p>
     </div>
   <div class="exp2" target="_blank">
-    <a href="#" class="image partial">
+    <a href="#" class="image partial hvr-wobble-skew">
     <img src="imgs/urver.png" class="urverPic" alt="Urver">
     </a>
     <h2>Urver</h2>
@@ -79,7 +88,7 @@ $(document).ready(function(){
     <p>and the monitoring of GitHub pushes. The project was about a car rental web app </p>
   </div>
   <div class="exp3" target="_blank">
-    <a href="#" class="image partial">
+    <a href="https://pseudojr2018.wordpress.com" class="image partial hvr-buzz-out ">
     <img src="imgs/pseudo.png" class="pseudpPic" alt="PseudoJr">
     </a>
     <h2>PseudoJr</h2>
@@ -90,10 +99,81 @@ $(document).ready(function(){
     <p>clients came thus I hired 4 other people to help me manage.</p>
   </div>
 </div>
+
+<!-- Portfolio -->
+<div class="body container-fluid">
+  <div class="section portfolio container-fluid">
+    <div>
+      <h1 id="myPort">Portfolio</h1>
+    </div>
+    <div class="port" target="_blank">
+      <a href="https://github.com/ajfunelas/Jarvis-Prototype" class="image partial hvr-wobble-bottom">
+      <img src="imgs/iron.jpg" alt="Jarvis">
+      </a>
+      <h2>Jarvis</h2>
+      <h3>My Voice Recognition Slave</h3>
+      <h4>Made with C#</h4>
+      <p>Yes this is inspired by Iron man :P</p>
+      <p>I made Jarvis so I can automate some of the things the I usually do on the computer like</p>
+      <p>Opening my email, check the weather, open steam etc. Just say "hello or hey" and he'll be listening</p>
+    </div>
+  </div>
+</div>
+
+
+    <!-- About -->
+    <!-- <div class="section about">
+      <div class="title">
+          <h1>About Me</h1>
+      </div>
+      <div class="content">
+        <div class="project">
+          <a href="#" class="image partial hvr-wobble-bottom">
+          <img src="imgs/iron.jpg" alt="Abner Jr">
+          </a>
+          <p>Hi, I'm Abner</p>
+        </div>
+      </div>
+
+    </div> -->
+    <div class="body container-fluid">
+      <div class="section about container-fluid">
+        <div>
+          <h1 id="myAbout">About Me</h1>
+        </div>
+        <div class="aboutMe" target="_blank">
+          <a href="https://www.linkedin.com/in/abner-jr-funelas-851a1a149/" class="image partial hvr-wobble-horizontal">
+          <img src="imgs/abner.png" alt="Abner Jr">
+          </a>
+          <p class="text">
+            I found my passion for programming back in 2015 when Scratch
+            was introduced in our computer science class.
+            Programming is challenging and fun at the same time and its a whole
+            different world compared to the other subjects at school.
+          </p>
+          <br/>
+          <p class="text">
+            From there onwards my curious heart and mind never stopped learning
+            about programming, thus it inspired me to create my own Business!
+            in January 2017 PseudoJr was formed. I offered IT services from web development
+            to PC building and logo design.
+          </p>
+          <br/>
+          <p class="text">
+            Fast forward to June 2018, one week after I graduated from my Diploma,
+            Fujitsu offered me a posistion as a Service Desk Analyst/Incident Manager.
+            In this job I managed to cohabit with senior developers to mentor me the
+            technologies they use such as MVC, ASP.NET C# and Azure.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
   <!-- Contact -->
   <div class="section contact container-fluid">
     <div>
-      <h1>Contact me!</h1>
+      <h1 id="myCon">Contact me!</h1>
     </div>
     <div class="mail">
       <form action="https://postmail.invotes.com/send"
@@ -141,5 +221,8 @@ $(document).ready(function(){
     </div>
   </div>
 </div>
+<!-- <script type="text/javascript">
+      particlesJS("particles-js");
+</script> -->
 </body>
 </html>
