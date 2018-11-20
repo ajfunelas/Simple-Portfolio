@@ -191,6 +191,15 @@ p {
 #email_form input {
   margin: 10px;
 }
+#footer {
+  color:white;
+}
+#font a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+}
 
 /* #email_form textarea {
   height: 10em;
