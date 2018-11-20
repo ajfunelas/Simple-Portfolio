@@ -102,12 +102,16 @@ p {
   box-sizing:border-box;
 } */
 /* Experience */
-.image.partial{
+.image.partial {
     /* width: 23.61%; */
     margin: 0 18px 9px 0;
     float: left;
 }
 .urverPic {
+  width: 210px;
+  height: 210px;
+}
+.pseudpPic {
   width: 210px;
   height: 210px;
 }
@@ -121,6 +125,15 @@ p {
   padding: 18px;
 }
 .exp2 {
+  margin: 4vh 0;
+  background-color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border-radius: 4px;
+  text-align: left;
+  padding: 18px;
+}
+.exp3 {
   margin: 4vh 0;
   background-color: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
