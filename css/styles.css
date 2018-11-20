@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 * {
   box-sizing: border-box;
 }
@@ -8,9 +10,9 @@ div {
   display: block;
 }
 body {
-  /* background-color:rgb(255, 255, 255); */
-  background: linear-gradient(135deg,#00C4FF,#9D1BB2);
-  font-family: 'Quicksand', sans-serif;
+  background-color:#303841;
+  /* background: linear-gradient(100deg,#FF5722,#00ADB5); */
+  font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: #5a5959;
   margin: 0;
@@ -25,7 +27,7 @@ input {
     border-radius: 4px;
     background-color: #fff;
     color: #5a5959;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 textarea {
 	  width: 50%;
@@ -37,7 +39,7 @@ textarea {
     border-radius: 4px;
     background-color: #fff;
     color: #5a5959;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 button {
 	cursor: default;
@@ -48,7 +50,7 @@ a {
   color: #5a5959;
 }
 h1 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight:300;
   margin: 0.67em;
 }
@@ -75,23 +77,34 @@ p {
   height: 20px;
   margin: 0 15px;
   vertical-align: middle;
-  font-size: 16px;
+  font-size: 30px;
   text-transform: uppercase;
   color: white;
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Amatic SC', cursive;
 }
 .hi {
   width: 100%;
   text-align: center;
-  padding-top: 10vh;
-  min-height: 40.8vh
+  padding-top: 8vh;
+  min-height: 45.8vh
 }
 .hi h1 {
   color: white;
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
 }
 .body {
-  background-color: #F5F5F5;
+  background-color: #FF5722;
   box-sizing: border-box;
   display: block;
+}
+.body h1 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 300;
+  color: white;
+  font-size: 80px;
+  padding-top: 20px;
 }
 /* .section {
   display: inline-block;
@@ -123,7 +136,9 @@ p {
   border-radius: 4px;
   text-align: left;
   padding: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
+
 .exp2 {
   margin: 4vh 0;
   background-color: #fff;
@@ -132,6 +147,7 @@ p {
   border-radius: 4px;
   text-align: left;
   padding: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 .exp3 {
   margin: 4vh 0;
@@ -141,6 +157,7 @@ p {
   border-radius: 4px;
   text-align: left;
   padding: 18px;
+  font-family: 'Montserrat', sans-serif;
 }
 .mail {
   text-align: center;

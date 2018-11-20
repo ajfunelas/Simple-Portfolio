@@ -9,12 +9,41 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- CSS -->
 		<link rel="stylesheet" href="css/styles.css">
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
 </head>
 <body>
 <div class="menu container-fluid">
   <div class="menu1 container-fluid">
-  <a id="nav-portfolio" href="#">Experience</a>
-  <a id="nav-experience" href="#">Portfolio</a>
+  <a id="nav-experience" href="#myExp">Experience</a>
+  <a id="nav-portfolio" href="#">Portfolio</a>
   <a id="nav-about" href="#">About</a>
   <a id="nav-contact" href="#">Contact</a>
   </div>
@@ -26,7 +55,7 @@
 <div class="body container-fluid">
   <div class="section portfolio container-fluid">
     <div>
-      <h1>My Experience</h1>
+      <h1 id="myExp">My Experience</h1>
     </div>
     <div class="exp" target="_blank">
       <a href="#" class="image partial">
@@ -39,8 +68,6 @@
       <p>that includes incident detection and recording, classification of all incidents</p>
       <p>and 1st / 2nd level investigation, diagnosis, resolution and recovery.</p>
     </div>
-  </div>
-
   <div class="exp2" target="_blank">
     <a href="#" class="image partial">
     <img src="imgs/urver.png" class="urverPic" alt="Urver">
@@ -51,7 +78,6 @@
     <p>I was assigned to create wireframes, assist in web designs & development</p>
     <p>and the monitoring of GitHub pushes. The project was about a car rental web app </p>
   </div>
-
   <div class="exp3" target="_blank">
     <a href="#" class="image partial">
     <img src="imgs/pseudo.png" class="pseudpPic" alt="PseudoJr">
@@ -63,7 +89,7 @@
     <p>development to PC building and repair. Started off as a side hustle but more</p>
     <p>clients came thus I hired 4 other people to help me manage.</p>
   </div>
-
+</div>
   <!-- Contact -->
   <div class="section contact container-fluid">
     <div>
