@@ -54,13 +54,6 @@ h1 {
   font-weight:300;
   margin: 0.67em;
 }
-p {
-  /* display: block; */
-  /* margin-block-start: 1em; */
-  /* margin-block-end: 1em; */
-  /* margin-inline-start: 0px; */
-  /* margin-inline-end: 0px; */
-}
 #submit_form {
 }
 .head {
@@ -220,13 +213,6 @@ p {
 /* h1 {
   font-size: 20px;
 } */
-
-/* .codePic {
-background: url('imgs/code.jpg') no-repeat;
-height: auto;
-width: auto;
-background-size: contain; */
-
   }
 
 
