@@ -10,7 +10,7 @@ div {
   display: block;
 }
 body {
-  background-color:#35477d; /* head color */
+  background-color:#13334c; /* head color */
   /* background: linear-gradient(100deg,#FF5722,#00ADB5); */
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -95,7 +95,7 @@ p {
   font-size: 80px;
 }
 .body {
-  background-color: #c06c84; /* Body color */
+  background-color: #005792; /* Body color */
   box-sizing: border-box;
   display: block;
 }
@@ -171,6 +171,16 @@ p {
   padding: 18px;
   font-family: 'Montserrat', sans-serif;
 }
+.codePic {
+  text-align: center;
+  padding-top: 15px;
+}
+#codeId {
+  max-width: 100%;
+  height: auto
+}
+
+/* About Me Section */
 .aboutMe {
   margin: 4vh 0;
   background-color: #fff;
@@ -210,5 +220,15 @@ p {
 /* h1 {
   font-size: 20px;
 } */
+
+/* .codePic {
+background: url('imgs/code.jpg') no-repeat;
+height: auto;
+width: auto;
+background-size: contain; */
+
+  }
+
+
 
 }
