@@ -48,6 +48,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   color: #5a5959;
+  /* color: white; */
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -196,6 +197,9 @@ h1 {
 }
 #footer {
   color:white;
+}
+#footer a {
+  color: white;
 }
 #font a {
   text-decoration: none;
