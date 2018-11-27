@@ -55,8 +55,6 @@ h1 {
   font-weight:300;
   margin: 0.67em;
 }
-#submit_form {
-}
 .head {
   height: 50vh;
 }
@@ -100,14 +98,7 @@ h1 {
   font-size: 80px;
   padding-top: 20px;
 }
-/* .section {
-  display: inline-block;
-  height:100%;
-  width:100%;
-  padding: 60px;
-  padding-left: 120px;
-  box-sizing:border-box;
-} */
+
 /* Experience */
 .image.partial {
     /* width: 23.61%; */
@@ -189,12 +180,14 @@ h1 {
   line-height: 1.5;
   margin: 0px;
 }
+/* Mail Section */
 .mail {
   text-align: center;
 }
 #email_form input {
   margin: 10px;
 }
+/* Footer Section */
 #footer {
   color:white;
 }
@@ -207,11 +200,6 @@ h1 {
   color: white;
   font-family: 'Amatic SC', cursive;
 }
-
-/* #email_form textarea {
-  height: 10em;
-  width: 25em;
-} */
 /* Responsive Stuff */
 @media (max-width: 576px) {
 /* h1 {
