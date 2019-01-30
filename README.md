@@ -7,7 +7,7 @@ A simple approach to portfolios
 
 # Languages and Libraries Used
 Javascript,
-Jquery,
+Jquery Library,
 HTML,
 CSS,
 Hover.css
